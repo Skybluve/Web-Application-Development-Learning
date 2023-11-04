@@ -14,17 +14,3 @@ if ($_SERVER["REQUEST_METHOD"] == "GET" && isset($_GET['id'])) {
 }
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>Delete Barang Toko Sisfo</title>
-    </head>
-    <body>
-        <h1>Delete Barang Toko Sisfo</h1>
-        <form action="" method="post">
-            <input type="hidden" name="id" value="<?php echo $id; ?>">
-            <p>Apakah Anda yakin ingin menghapus data ini?</p>
-            <button type="submit" name="submit">Hapus</button>
-        </form>
-    </body>
-</html>
