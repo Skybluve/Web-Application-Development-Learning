@@ -17,22 +17,22 @@ $count = 1; // Inisialisasi variabel untuk nomor urut
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>HALAMAN ADMIN BUAH</title>
+    <title>TOKO BUAH-BUAHAN</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
-            background-color: cyan;
+            background-color: #f8f9fa; /* Warna latar belakang halaman */
             font-family: Arial, sans-serif;
-            padding-top: 20px;
+            padding: 20px;
             margin: 0;
         }
         h1 {
             text-align: center;
-            color: #fff;
-            padding: 20px;
+            color: #343a40; /* Warna teks judul */
+            padding: 10px;
             margin-bottom: 20px;
-            border: 2px solid #343a40;
-            background: linear-gradient(to right, #007bff, #28a745);
+            border: 2px solid #343a40; /* Garis bingkai pada judul */
+            display: inline-block; /* Biarkan bingkai mengikuti judul */
         }
         th {
             background-color: #343a40;
@@ -42,19 +42,23 @@ $count = 1; // Inisialisasi variabel untuk nomor urut
             margin-bottom: 20px;
         }
         tbody tr:nth-child(even) {
-            background-color: #f2f2f2;
+            background-color: #e9ecef; /* Warna latar belakang baris genap */
+        }
+        tbody tr:nth-child(odd) {
+            background-color: #fff; /* Warna latar belakang baris ganjil */
         }
         .btn-action {
             margin: 2px;
         }
         .btn-add {
             margin-bottom: 20px;
+            display: block; /* Memindahkan tombol ke baris baru */
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Toko Buah Buahan</h1>
+        <marquee behavior="scroll" direction="left" scrollamount="5"><h1>Selamat Datang di Toko Buah-Buahan Segar dan Sehat</h1></marquee>
         <div class="table-responsive">
             <table class="table table-bordered table-hover">
                 <thead class="thead-dark">
