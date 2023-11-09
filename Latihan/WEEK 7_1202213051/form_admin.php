@@ -17,7 +17,7 @@ $count = 1; // Inisialisasi variabel untuk nomor urut
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>HALAMAN ADMIN - Toko Buah Buahan</title>
+    <title>HALAMAN ADMIN BUAH</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
@@ -54,7 +54,7 @@ $count = 1; // Inisialisasi variabel untuk nomor urut
 </head>
 <body>
     <div class="container">
-        <h1>Toko Buah Buahan - Halaman Admin</h1>
+        <h1>Toko Buah Buahan</h1>
         <div class="table-responsive">
             <table class="table table-bordered table-hover">
                 <thead class="thead-dark">
